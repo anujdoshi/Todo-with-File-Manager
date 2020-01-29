@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		EDDD759B23E03F1D00CCA2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD759A23E03F1D00CCA2C1 /* AppDelegate.swift */; };
 		EDDD759D23E03F1D00CCA2C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD759C23E03F1D00CCA2C1 /* SceneDelegate.swift */; };
-		EDDD759F23E03F1D00CCA2C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD759E23E03F1D00CCA2C1 /* ViewController.swift */; };
 		EDDD75A223E03F1D00CCA2C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDD75A023E03F1D00CCA2C1 /* Main.storyboard */; };
 		EDDD75A423E03F1E00CCA2C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDD75A323E03F1E00CCA2C1 /* Assets.xcassets */; };
 		EDDD75A723E03F1E00CCA2C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDD75A523E03F1E00CCA2C1 /* LaunchScreen.storyboard */; };
+		EDDD75B223E03F6000CCA2C1 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD75B123E03F6000CCA2C1 /* Items.swift */; };
+		EDDD75B423E03FBE00CCA2C1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD75B323E03FBE00CCA2C1 /* TableViewController.swift */; };
+		EDDD75B623E045C200CCA2C1 /* ItemListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD75B523E045C200CCA2C1 /* ItemListTableViewController.swift */; };
+		EDDD75B823E0470000CCA2C1 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD75B723E0470000CCA2C1 /* ItemList.swift */; };
+		EDF4432023E1478C008AEC28 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF4431F23E1478C008AEC28 /* Gradient.swift */; };
+		EDF4432223E14895008AEC28 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF4432123E14895008AEC28 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EDDD759723E03F1D00CCA2C1 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDD759723E03F1D00CCA2C1 /* Todo's app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo's app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDD759A23E03F1D00CCA2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDDD759C23E03F1D00CCA2C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDDD759E23E03F1D00CCA2C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDDD75A123E03F1D00CCA2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDDD75A323E03F1E00CCA2C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDD75A623E03F1E00CCA2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDDD75A823E03F1E00CCA2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDD75B123E03F6000CCA2C1 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		EDDD75B323E03FBE00CCA2C1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EDDD75B523E045C200CCA2C1 /* ItemListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListTableViewController.swift; sourceTree = "<group>"; };
+		EDDD75B723E0470000CCA2C1 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		EDF4431F23E1478C008AEC28 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		EDF4432123E14895008AEC28 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +58,7 @@
 		EDDD759823E03F1D00CCA2C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDDD759723E03F1D00CCA2C1 /* Todo.app */,
+				EDDD759723E03F1D00CCA2C1 /* Todo's app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +66,44 @@
 		EDDD759923E03F1D00CCA2C1 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
-				EDDD759A23E03F1D00CCA2C1 /* AppDelegate.swift */,
-				EDDD759C23E03F1D00CCA2C1 /* SceneDelegate.swift */,
-				EDDD759E23E03F1D00CCA2C1 /* ViewController.swift */,
-				EDDD75A023E03F1D00CCA2C1 /* Main.storyboard */,
-				EDDD75A323E03F1E00CCA2C1 /* Assets.xcassets */,
-				EDDD75A523E03F1E00CCA2C1 /* LaunchScreen.storyboard */,
+				EDDD75AF23E03F3400CCA2C1 /* Model */,
+				EDDD75B023E03F3A00CCA2C1 /* Controller */,
+				EDDD75AE23E03F2A00CCA2C1 /* View */,
 				EDDD75A823E03F1E00CCA2C1 /* Info.plist */,
 			);
 			path = Todo;
+			sourceTree = "<group>";
+		};
+		EDDD75AE23E03F2A00CCA2C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD75A023E03F1D00CCA2C1 /* Main.storyboard */,
+				EDDD75A323E03F1E00CCA2C1 /* Assets.xcassets */,
+				EDDD75A523E03F1E00CCA2C1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDDD75AF23E03F3400CCA2C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD75B123E03F6000CCA2C1 /* Items.swift */,
+				EDDD75B723E0470000CCA2C1 /* ItemList.swift */,
+				EDF4431F23E1478C008AEC28 /* Gradient.swift */,
+				EDF4432123E14895008AEC28 /* Color.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDDD75B023E03F3A00CCA2C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD759A23E03F1D00CCA2C1 /* AppDelegate.swift */,
+				EDDD759C23E03F1D00CCA2C1 /* SceneDelegate.swift */,
+				EDDD75B323E03FBE00CCA2C1 /* TableViewController.swift */,
+				EDDD75B523E045C200CCA2C1 /* ItemListTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +123,7 @@
 			);
 			name = Todo;
 			productName = Todo;
-			productReference = EDDD759723E03F1D00CCA2C1 /* Todo.app */;
+			productReference = EDDD759723E03F1D00CCA2C1 /* Todo's app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDDD759F23E03F1D00CCA2C1 /* ViewController.swift in Sources */,
+				EDDD75B223E03F6000CCA2C1 /* Items.swift in Sources */,
+				EDDD75B623E045C200CCA2C1 /* ItemListTableViewController.swift in Sources */,
 				EDDD759B23E03F1D00CCA2C1 /* AppDelegate.swift in Sources */,
+				EDF4432023E1478C008AEC28 /* Gradient.swift in Sources */,
 				EDDD759D23E03F1D00CCA2C1 /* SceneDelegate.swift in Sources */,
+				EDF4432223E14895008AEC28 /* Color.swift in Sources */,
+				EDDD75B823E0470000CCA2C1 /* ItemList.swift in Sources */,
+				EDDD75B423E03FBE00CCA2C1 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.anuj.Todo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Todo's app";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +352,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.anuj.Todo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Todo's app";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
